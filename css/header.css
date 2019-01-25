@@ -1,0 +1,40 @@
+.social {
+    float: right;
+}
+
+.social__list ul {
+    display: inline-block;
+}
+
+.social__item {
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform-origin: top 0;
+    padding: 50px 10px;
+    cursor: pointer;
+}
+
+.social__item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Abel', sans-serif;
+    margin-right: 36px;
+}
+
+.logo__container {
+    position: relative;
+}
+
+.logo__img {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+
+
