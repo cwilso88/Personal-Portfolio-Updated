@@ -1,2 +1,33 @@
 @import "cssreset.css";
 @import url('https://fonts.googleapis.com/css?family=Abel|Medula+One');
+@import "header.css";
+
+/* turquoise	#40E0D0	rgb(64,224,208) */
+/* color: #FACC43 */
+
+body {
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Medula One', cursive;
+	line-height: 1;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+	line-height: 1;
+	font-size: 30px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    width: 900px;
+}
