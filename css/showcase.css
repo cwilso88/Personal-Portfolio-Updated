@@ -4,14 +4,93 @@
 }
 
 .showcase__backgroundText {
-    letter-spacing: 1em;
     position: absolute;
-    left: 20%;
+    left: 15%;
     color: #1F1F1F;
     text-transform: uppercase;
     z-index: -1;
-    font-size: 300px;
-	line-height: 2;
+    font-size: 350px;
     font-weight: 700;
-    letter-spacing: .3em;
 }
+
+.showcase__backgroundText h3 {
+    letter-spacing: .4em;
+    line-height: .9em;
+}
+
+.showcase__sideways {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.showcase__sidewaysText {
+    font-weight: 300;
+    line-height: 2em;
+    letter-spacing: 4px;
+}
+
+.showcase__wrap {
+    position: absolute;
+    left: 45%;
+    bottom: 30%;
+}
+
+.showcase__wrapText {
+    font-size: 170px;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    position: relative;
+}
+
+.wrapText--blue {
+    color: #40E0D0;
+}
+
+/* Circles */
+
+.lg {
+    width: 40px;
+    height: 40px;
+    border: 20px solid #FACC43;
+    border-radius: 40%;
+    z-index: 0;
+}
+
+
+.md {
+    width: 20px;
+    height: 20px;
+    border: 17px solid #40E0D0;
+    border-radius: 40%;
+}
+
+.circle1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.circle2 {
+    position: absolute;
+    top: -3%;
+    left: 75%;
+}
+
+.circle3 {
+    position: absolute;
+    top: 13%;
+    left: 26%;
+}
+
+.circle4 {
+    position: absolute;
+    top: 67%;
+    left: 38%;
+}
+
