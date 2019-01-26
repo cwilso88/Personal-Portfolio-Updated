@@ -13,7 +13,6 @@
     -webkit-transform: rotate(-90deg);
     transform-origin: top 0;
     padding: 50px 10px;
-    cursor: pointer;
 }
 
 .social__item a {
@@ -24,6 +23,7 @@
     line-height: 28px;
     font-family: 'Abel', sans-serif;
     margin-right: 36px;
+    cursor: pointer;
 }
 
 .logo__container {

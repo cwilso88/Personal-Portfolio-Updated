@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chasity De La Cruz</title>
     <link rel="stylesheet" href="css/main.css">
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.min.js"></script>
 </head>
 <body>
 <!--Social Media Side Menu-->
@@ -36,7 +37,7 @@
     <div class="circle circle3 md rellax rellax-mobile" data-rellax-speed="3"></div>
     <div class="circle circle4 md rellax rellax-mobile" data-rellax-speed="-3"></div>
     <div class="showcase__sideways">
-        <p class="showcase__sidewaysText rellax">Front-End Developer<br>
+        <p class="showcase__sidewaysText rellax" data-rellax-speed="1">Front-End Developer<br>
                 based in Atlanta</p>
     </div>
     <div class="showcase__wrap">
@@ -49,8 +50,14 @@
 
 <!--Rellax JS-->
 <script>
-    var rellax = new Rellax('.rellax');
-</script> 
+    	var rellax = new Rellax('.rellax', {
+        //center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+</script>
 
 </body>
 </html>
