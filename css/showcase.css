@@ -34,6 +34,26 @@
     letter-spacing: 4px;
 }
 
+.share-this {
+    position: fixed;
+
+
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.share-this a {
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: #1F1F1F;
+    padding: 3px 15px;
+}
+
 .showcase__wrap {
     position: absolute;
     left: 45%;
