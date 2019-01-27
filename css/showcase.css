@@ -43,7 +43,6 @@
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     z-index: 3;
-    cursor: pointer;
 }
 
 .share-this a {
@@ -55,10 +54,7 @@
     color: rgba(255, 255, 255, 0.8);
     background: #1F1F1F;
     padding: 3px 15px;
-}
-
-.share-this a:hover, .share-this a:active {
-    text-decoration: none;
+    cursor: pointer;
 }
 
 .share-this a i {
