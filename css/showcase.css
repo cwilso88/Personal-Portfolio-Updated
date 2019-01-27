@@ -26,6 +26,7 @@
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
+    z-index: 999;
 }
 
 .showcase__sidewaysText {
@@ -36,6 +37,8 @@
 
 .share-this {
     position: fixed;
+    left: 3px;
+    bottom: 17%;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
@@ -78,7 +81,7 @@
     height: 40px;
     border: 20px solid #FACC43;
     border-radius: 40%;
-    z-index: 0;
+    
 }
 
 
@@ -92,7 +95,7 @@
 .circle1 {
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 30%;
 }
 
 .circle2 {
