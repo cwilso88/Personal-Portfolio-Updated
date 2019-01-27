@@ -43,6 +43,7 @@
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     z-index: 3;
+    cursor: pointer;
 }
 
 .share-this a {
@@ -50,10 +51,18 @@
     font-size: 15px;
     line-height: 30px;
     letter-spacing: 4px;
-    text-decoration: none;
+    text-decoration: line-through;
     color: rgba(255, 255, 255, 0.8);
     background: #1F1F1F;
     padding: 3px 15px;
+}
+
+.share-this a:hover, .share-this a:active {
+    text-decoration: none;
+}
+
+.share-this a i {
+    margin: 0 10px;
 }
 
 .showcase__wrap {
