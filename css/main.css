@@ -10,6 +10,7 @@
 /* white: #FFFFFF; */
 
 body {
+	overflow-x: hidden;
     color: #FFFFFF;
     background-color: #1A1A1A;
     box-sizing: border-box;
