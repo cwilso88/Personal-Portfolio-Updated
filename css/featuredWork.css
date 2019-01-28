@@ -11,3 +11,17 @@
     padding: 40px;
     margin-right: 15%;
 }
+
+.featuredWork__img {
+    position: relative;
+    top: 350px;
+    left: 20%;
+}
+.featuredWork__img img {
+    width: 400px;
+}
+
+.featuredWork__img h2 {
+    position: absolute;
+}
+

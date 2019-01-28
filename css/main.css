@@ -3,6 +3,7 @@
 @import "header.css";
 @import "showcase.css";
 @import "about.css";
+@import "featuredWork.css";
 
 /* turquoise	#40E0D0	rgb(64,224,208) */
 /* Yellow: #FACC43 */
@@ -32,7 +33,7 @@ ul {
 }
 
 .container {
-    width: 900px;
+	width: 900px;
 }
 
 section {
@@ -40,4 +41,17 @@ section {
 	min-height: 100vh;
 	position: relative;
 	z-index: 1;
+}
+
+/*Styling for Header Titles and Colon */
+.title {
+    font-size: 100px;
+    line-height: 1em;
+    font-weight: 700;
+    padding-bottom: 75px;
+    letter-spacing: 10px;
+}
+
+.colonText--color {
+    color: #40E0D0;
 }

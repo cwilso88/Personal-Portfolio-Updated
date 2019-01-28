@@ -37,18 +37,6 @@
     left: 20%;
 }
 
-.about__title {
-    font-size: 100px;
-    line-height: 1em;
-    font-weight: 700;
-    padding-bottom: 75px;
-    letter-spacing: 10px;
-}
-
-.about--color {
-    color: #40E0D0;
-}
-
 /* Circles */
 
 .circle5 {
