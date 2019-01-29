@@ -16,6 +16,7 @@
     position: relative;
     top: 350px;
     left: 20%;
+    padding-bottom: 50px;
 }
 .featuredWork__img img {
     width: 380px;
