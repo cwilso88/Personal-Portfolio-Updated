@@ -23,28 +23,23 @@
     font-size: 13px;
     letter-spacing: 3px;
     position: absolute;
-    top: 50px;
+    left: -52px;
     z-index: 3;
     opacity: 1;
     transition: all .4s ease;
     display: inline-block;
     padding-left: 10px;
+    width: 240px;
+    height: 30px;
+    background-color:rgba(217, 217, 217, 0.5);
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 3%;
 }
 
 
 .single-project em:hover {
     opacity: 1;
-}
-
-figure::after {
-    content: '';
-    width: 270px;
-    height: 60px;
-    position: absolute;
-    top: 26px;
-    left: -55px;
-    z-index: 2;
-    background-color:rgba(217, 217, 217, 0.5);
 }
 
 figcaption {
