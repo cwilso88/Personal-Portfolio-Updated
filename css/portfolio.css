@@ -2,6 +2,13 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.portfolio__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
 .portfolio__img {
     max-width: 100%;
     opacity: 0.7;
