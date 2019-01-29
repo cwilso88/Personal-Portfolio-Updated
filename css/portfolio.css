@@ -31,16 +31,17 @@
     padding-left: 10px;
 }
 
+
 .single-project em:hover {
     opacity: 1;
 }
 
-.portfolio__line::after {
+figure::after {
     content: '';
     width: 270px;
     height: 60px;
     position: absolute;
-    top: -20px;
+    top: 26px;
     left: -55px;
     z-index: 2;
     background-color:rgba(217, 217, 217, 0.5);
