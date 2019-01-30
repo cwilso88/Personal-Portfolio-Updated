@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 figure {
@@ -89,5 +89,10 @@ figcaption {
 
 .link {
     text-decoration: none;
+}
+
+.circle7 {
+    position: absolute;
+    right: 350px;
 }
 
