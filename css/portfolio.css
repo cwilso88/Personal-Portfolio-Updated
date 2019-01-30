@@ -93,6 +93,11 @@ figcaption {
 
 .circle7 {
     position: absolute;
-    right: 350px;
+    right: 470px;
+}
+
+.circle8 {
+    position: absolute;
+    left: 550px;
 }
 
