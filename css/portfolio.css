@@ -6,7 +6,12 @@
 .portfolio__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 15%;
+}
+
+figure {
+    position: relative;
 }
 
 .portfolio__img {
@@ -18,14 +23,14 @@
 }
 
 .portfolio__img:hover {
-    opacity: .3;
-    -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
+    opacity: .2;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
 }
 
-.single-project em {
+.portfolio__projectOne em, .portfolio__projectTwo em, .portfolio__projectThree em, .portfolio__projectFour em {
     color: white;
     font-size: 13px;
     letter-spacing: 3px;
@@ -47,6 +52,27 @@
 
 .single-project em:hover {
     opacity: 1;
+}
+
+.portfolio__projectTwo em, .portfolio__projectFour em{
+    width: 200px;
+    top: 42px;
+    left: 70px;
+    transform: rotate(90deg);
+    * Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 figcaption {
