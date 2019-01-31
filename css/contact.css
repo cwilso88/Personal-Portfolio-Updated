@@ -1,0 +1,25 @@
+.contact__wrap {
+    position: absolute;
+    margin: 10%;
+    left: 80px;
+}
+
+.contact__textWrap {
+    font-size: 70px;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    position: relative;
+}
+
+.contact--color a {
+    color: #40E0D0;
+    text-decoration: line-through;
+    cursor: pointer;
+    font-size: 80px;
+    line-height: 1.3em;
+}
+
+.contact--color a:hover {
+    text-decoration: none;
+}

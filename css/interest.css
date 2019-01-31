@@ -30,11 +30,16 @@
 
 .circle9 {
     position: absolute;
-    right: 130px;
+    left: 55%;
 }
 .circle10 {
     position: absolute;
-    left: 55%;
+    right: 130px;
+}
+
+.circle11 {
+    position: absolute;
+    left: 25%;
 }
 
 
