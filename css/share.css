@@ -2,11 +2,55 @@ body {
     background-color: #1A1A1A;
 }
 
+.shareBanner__list {
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
 .shareBanner__list li {
     list-style-type: none;
     display: inline-block;
-    width: 300px;
+    width: 200px;
     height: 400px;
     border-radius: 20%;
     background-color: #1F1F1F;
+    color: white;
+    min-width: 100px;
+    height: 250px;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.shareBanner__list i {
+    color: white;
+    font-size: 50px;
+    top: 40%;
+    position: relative;
+}
+
+.close-this {
+    position: fixed;
+    left: 3px;
+    bottom: 17%;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    z-index: 3;
+    cursor: pointer;
+}
+
+.close-this a {
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 4px;
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.8);
+    background: #1F1F1F;
+    padding: 3px 15px;
+}
+
+.close-this a i {
+    margin: 0 10px;
 }
