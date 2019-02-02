@@ -20,6 +20,9 @@ body {
     height: 250px;
     margin: 2%;
     cursor: pointer;
+    -webkit-box-shadow: -2px 3px 22px 10px rgba(0,0,0,0.15);
+    -moz-box-shadow: -2px 3px 22px 10px rgba(0,0,0,0.15);
+    box-shadow: -2px 3px 22px 10px rgba(0,0,0,0.15);
 }
 
 .shareBanner__list i {
@@ -38,6 +41,9 @@ body {
     transform: rotate(-90deg);
     z-index: 3;
     cursor: pointer;
+    -webkit-box-shadow: -2px 3px 22px 10px rgba(0,0,0,0.05);
+    -moz-box-shadow: -2px 3px 22px 10px rgba(0,0,0,0.05);
+    box-shadow: -2px 3px 22px 10px rgba(0,0,0,0.05);
 }
 
 .close-this a {

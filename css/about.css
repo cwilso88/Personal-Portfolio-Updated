@@ -1,6 +1,7 @@
 .about__skills {
     position: absolute;
     right: 0px;
+    top: 25%;
     background-color: #1F1F1F;
     padding: 36px;
     min-width: 30%;
@@ -41,13 +42,13 @@
 
 .circle5 {
     position: absolute;
-    top: 144px;
+    top: 113px;
     right: 350px;
+    z-index: -1;
 }
 
 .circle6 {
     position: absolute;
     bottom: 55px;
     right: 350px;
-}
 }
