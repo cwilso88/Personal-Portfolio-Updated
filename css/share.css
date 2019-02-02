@@ -54,3 +54,7 @@ body {
 .close-this a i {
     margin: 0 10px;
 }
+
+.close-this a:hover {
+    text-decoration: none;
+}

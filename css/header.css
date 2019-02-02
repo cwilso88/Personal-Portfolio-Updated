@@ -1,5 +1,8 @@
 .social {
     float: right;
+    position: relative;
+    z-index: 99;
+    margin-right: 10px;
 }
 
 .social__list ul {
