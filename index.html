@@ -202,8 +202,18 @@
 
 <!--Social List Fade-In-Out-->
 <script>
-$(".social").fadeOut('slow');   
+$(function() {
+    var $window = $(window);
+    var $slideSocial = $('.social');
+    var endZone = $('#portfolio').offset().top - $window.height() - 500;
 
+    $window.on('scroll', function() {
+
+        if ((endZone < $window.scrollTop()) {
+            $slideSocial.fadeOut();
+        }
+    });
+});
 </script>
 
 </body>
