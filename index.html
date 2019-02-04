@@ -11,7 +11,7 @@
 </head>
 <body>
 <!--Social Media Side Menu-->
-<div id="sticker" class="social">
+<div id="sticky" class="social">
     <ul class="social__list">
         <li class="social__item"><a href="https://www.linkedin.com/in/chasitydelacruz" target="_Blank">LinkedIn</a></li>
         <li class="social__item"><a href="https://github.com/cwilso88" target="_Blank">GitHub</a></li>
@@ -186,7 +186,8 @@
     </div>
 </footer>
     
-
+<!--JQuery CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!--Rellax JS-->
 <script>
@@ -197,6 +198,12 @@
             console.log(position);
         }
       });
+</script>
+
+<!--Social List Fade-In-Out-->
+<script>
+$(".social").fadeOut('slow');   
+
 </script>
 
 </body>
