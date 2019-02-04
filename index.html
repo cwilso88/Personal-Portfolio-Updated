@@ -204,13 +204,15 @@
 <script>
 $(function() {
     var $window = $(window);
-    var $slideSocial = $('.social');
-    var endZone = $('#portfolio').offset().top - $window.height() - 500;
+    var $slideSocial = $('#sticky');
+    var endZone = $('#portfolio').offset().top - $window.height() - 100;
 
     $window.on('scroll', function() {
 
-        if ((endZone < $window.scrollTop()) {
+        if ( (endZone) < $window.scrollTop() ) {
             $slideSocial.fadeOut();
+        } else {
+            $slideSocial.fadeIn();
         }
     });
 });
