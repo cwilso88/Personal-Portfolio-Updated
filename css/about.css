@@ -1,7 +1,7 @@
 .about__skills {
     position: absolute;
     right: 0px;
-    top: 25%;
+    top: 90%;
     background-color: #1F1F1F;
     padding: 36px;
     min-width: 30%;
@@ -34,7 +34,7 @@
 .about__content {
     width: 40%;
     position: absolute;
-    top: 30%;
+    top: 90%;
     left: 20%;
 }
 

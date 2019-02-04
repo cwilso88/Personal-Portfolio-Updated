@@ -1,0 +1,101 @@
+@media screen and (min-width: 940px) and (max-width: 1115px) {
+    .about__me p, .featuredWork__about p, .interest__col p {
+      font-size: 17px;
+    }
+
+    .showcase__wrapText {
+        font-size: 130px;
+    }
+
+    .showcase__wrap {
+        bottom: 40%;
+    }
+
+    .about__content {
+        top: 50%;
+    }
+
+    .about__skills {
+        top: 50%;
+    }
+
+    .circle1 {
+        display: none;
+    }
+
+    .featuredWork__img {
+        width: 300px;
+    }
+
+    .circle6 {
+        left: 170px;
+        bottom: -155px;
+    }
+  }
+
+  @media screen and (min-width: 740px) and (max-width: 939px) {
+      .showcase__backgroundText {
+          display: none;
+      }
+
+      .showcase__sidewaysText {
+          font-size: 15px;
+      }
+
+      .showcase__wrap {
+          top: 2%;
+      }
+
+      .showcase__wrapText {
+          font-size: 100px;
+      }
+
+      #sticky {
+          display: none!important;
+      }
+
+      .share-this {
+          top: 85px;
+          right: 0;
+          transform: rotate(90deg);
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+      }
+
+      .about__content {
+          top: 40%;
+      }
+
+      .about__skills {
+          top: 60%;
+      }
+
+      .featuredWork__about {
+          display: none;
+      }
+
+      .featuredWork__img img {
+          width: 250px;
+      }
+
+      .title {
+          font-size: 50px!important;
+      }
+
+      .circle1 {
+        position: absolute;
+        top: 133px;
+        left: 75%;
+      }
+
+      .circle2, .circle5 {
+          display: none;
+      }
+
+      .lg {
+          width: 30px;
+          height: 30px;
+      }
+
+
+  }
