@@ -84,20 +84,36 @@
       }
 
       .portfolio__img {
-          max-width: 90%;
+          max-width: 50%;
       }
 
       .portfolio__projectTwo em, .portfolio__projectFour em {
           left: 50px;
       }
 
-      .figcaption {
+      figcaption {
           font-size: 40px;
           bottom: 70px;
       }
 
       .title {
           font-size: 50px!important;
+      }
+
+      .interest__col p {
+          padding-bottom: 50px;
+      }
+
+      #contact {
+          min-height: 80vh;
+      }
+
+      .contact__wrap {
+          padding-top: 25px;
+      }
+
+      .contact__textWrap {
+          font-size: 50px;
       }
 
       .circle1 {
