@@ -55,11 +55,12 @@
       }
 
       .share-this {
-          top: 85px;
-          right: 0;
-          transform: rotate(90deg);
-          -webkit-transform: rotate(90deg);
-          -ms-transform: rotate(90deg);
+        position: fixed;
+        left: 79%;
+        bottom: 80%;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
       }
 
       .about__content {
@@ -76,6 +77,23 @@
 
       .featuredWork__img img {
           width: 250px;
+      }
+
+      #portfolio {
+          margin-left: 10%;
+      }
+
+      .portfolio__img {
+          max-width: 90%;
+      }
+
+      .portfolio__projectTwo em, .portfolio__projectFour em {
+          left: 50px;
+      }
+
+      .figcaption {
+          font-size: 40px;
+          bottom: 70px;
       }
 
       .title {
