@@ -34,13 +34,7 @@
   }
 
   @media screen and (min-width: 740px) and (max-width: 939px) {
-      .showcase__backgroundText {
-          display: none;
-      }
-
-      .showcase__sidewaysText {
-          font-size: 15px;
-      }
+      
 
       .showcase__wrap {
           top: 2%;
@@ -50,17 +44,13 @@
           font-size: 100px;
       }
 
-      #sticky {
-          display: none!important;
-      }
-
       .share-this {
         position: fixed;
         left: 79%;
         bottom: 80%;
-        transform: rotate(90deg);
-        -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
       }
 
       .about__content {
@@ -69,10 +59,6 @@
 
       .about__skills {
           top: 60%;
-      }
-
-      .featuredWork__about {
-          display: none;
       }
 
       .featuredWork__img img {
@@ -122,14 +108,86 @@
         left: 75%;
       }
 
-      .circle2, .circle5 {
-          display: none;
+      .lg {
+        width: 30px;
+        height: 30px;
+    }
+
+      
+  }
+
+  @media screen and (max-width: 939px) {
+    
+
+    .showcase__backgroundText {
+        display: none;
+    }
+
+    .showcase__sidewaysText {
+        font-size: 15px;
+    }
+
+    .share-this {
+        position: fixed;
+        left: 79%;
+        bottom: 80%;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+      }
+
+    #sticky {
+        display: none!important;
+    }
+
+    .featuredWork__about {
+        display: none;
+    }
+
+    .circle2, .circle5 {
+        display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 739px) {
+
+      .logo__img {
+          max-width: 8.5%;
+      }
+
+      .showcase__wrapText {
+          font-size: 5em;
+          line-height: 1.2;
+      }
+
+      .showcase__wrap {
+          position: absolute;
+          left: 40%;
+          top: 0;
+      }
+
+      .showcase__sideways {
+        top: 37%;
+        left: 40%;
+        padding-top: 5%;
+        transform: rotate(0deg);
+      }
+      .showcase__sidewaysText {
+        font-size: 1em;
+        position: relative;
       }
 
       .lg {
-          width: 30px;
-          height: 30px;
-      }
+        border: 10px solid #FACC43;
+        width: 20px;
+        height: 20px;
+    }
 
+    .md {
+        border: 7px solid #40E0D0;
+        width: 13px;
+        height: 13px;
+    }
 
   }
