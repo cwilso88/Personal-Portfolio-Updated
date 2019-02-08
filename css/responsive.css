@@ -178,6 +178,54 @@
         position: relative;
       }
 
+      .about__content {
+        width: 60%;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+    }
+
+    .about__skills {
+        display: none;
+    }
+
+    .featuredWork__container {
+        margin-top: 30%;
+    }
+
+    .featuredWork__img img {
+        width: 250px;
+    }
+
+    #portfolio {
+        margin-left: 10%;
+    }
+
+    .portfolio__img {
+        max-width: 50%;
+    }
+
+    .portfolio__projectTwo em, .portfolio__projectFour em {
+        left: 50px;
+    }
+
+    figcaption {
+        font-size: 40px;
+        bottom: 70px;
+    }
+
+    .title {
+        font-size: 50px!important;
+    }
+
+    #contact {
+        min-height: 85vh;
+    }
+
+    .contact__textWrap {
+        font-size: 50px;
+    }
+
       .lg {
         border: 10px solid #FACC43;
         width: 20px;
