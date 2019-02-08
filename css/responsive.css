@@ -351,7 +351,7 @@
       }
 
       #featuredWork {
-          min-height: 50vh;
+          min-height: 40vh;
       }
 
       .featuredWork__container {
@@ -365,11 +365,15 @@
       .featuredWork__img h2 {
         position: absolute;
         left: 15px;
-        bottom: -90px;
+        bottom: -1px;
+    }
+
+    #about {
+        min-height: 60vh;
     }
 
     #portfolio {
-        margin-bottom: 90%;
+        margin-bottom: 50%;
     }
 
     #contact {
@@ -397,7 +401,7 @@
     }
 
     .portfolio__projectTwo em, .portfolio__projectFour em, .portfolio__projectOne em, .portfolio__projectThree em {
-        left: 45px;
+        left: 58px;
         top: 10px;
         width: 150px;
         height: 30px;
