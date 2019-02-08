@@ -90,3 +90,23 @@ body {
         margin: 6%;
     }
 }
+
+
+@media screen and (min-width: 451px) and (max-width: 1022px) {
+    .shareBanner__list {
+        text-align: center;
+        position: relative;
+        top: 250px;
+    }
+
+    .shareBanner__list li {
+        list-style-type: none;
+        display: inline-block;
+        max-width: 130px;
+        border-radius: 20%;
+        background-color: #1F1F1F;
+        color: white;
+        height: 150px;
+        margin: 2%;
+    }
+}
