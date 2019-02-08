@@ -198,11 +198,37 @@
     }
 
     #portfolio {
-        margin-left: 10%;
+       margin-bottom: 40%;
+    }
+
+    .portfolio__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 
     .portfolio__img {
         max-width: 50%;
+    }
+
+    .single-project {
+        margin-bottom: 15%;
+    }
+
+    .portfolio__projectOne {
+        transform: translate3d(0px, 0px, 0px)!important;
+    }
+
+    .portfolio__projectTwo {
+        transform: translate3d(0px, 0px, 0px)!important;
+    }
+
+    .portfolio__projectThree {
+        transform: translate3d(0px, 0px, 0px)!important;
+    }
+
+    .portfolio__projectFour {
+        transform: translate3d(0px, 0px, 0px)!important;
     }
 
     .portfolio__projectTwo em, .portfolio__projectFour em {
@@ -218,12 +244,60 @@
         font-size: 50px!important;
     }
 
+    #interest .title {
+        padding-bottom: 0;
+    }
+
+    .interest__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .interest__col {
+            margin-left: 10%;
+            margin-right: 10%;
+    }
+
+    .interest__col p {
+        padding-bottom: 65px;
+    }
+
+    .interest__list {
+        margin-left: 20%;
+    }
+
+    .interest__list h1 {
+        padding-top: 10%;
+        letter-spacing: 2px;
+        font-size: 2em;
+    }
+
+
     #contact {
-        min-height: 85vh;
+        min-height: 90vh;
+    }
+
+    .contact__wrap {
+        position: absolute;
+        margin: 10%;
+        left: 30px;
+        top: 130px;
     }
 
     .contact__textWrap {
-        font-size: 50px;
+        font-size: 40px;
+    }
+
+    .contact--color a {
+        font-size: 55px;
+    }
+
+    .circle7 {
+        display: none;
+    }
+
+    .circle10 {
+        display: none;
     }
 
       .lg {
