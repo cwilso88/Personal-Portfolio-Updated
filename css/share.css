@@ -64,3 +64,24 @@ body {
 .close-this a:hover {
     text-decoration: none;
 }
+
+/* Responsive Design */
+
+@media screen and (max-width: 450px) {
+    .shareBanner__list {
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+
+    .shareBanner__list li {
+        list-style-type: none;
+        display: inline-block;
+        max-width: 130px;
+        border-radius: 20%;
+        background-color: #1F1F1F;
+        color: white;
+        height: 150px;
+        margin: 6%;
+    }
+}
