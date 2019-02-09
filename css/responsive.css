@@ -267,7 +267,13 @@
             margin-right: 10%;
     }
 
+    .interest__header {
+        position: absolute;
+        left: 19%;
+    }
+
     .interest__col p {
+        margin: 12%;
         padding-bottom: 65px;
     }
 
@@ -305,8 +311,16 @@
         display: none;
     }
 
+    .circle8 {
+        display: none;
+    }
+
     .circle10 {
         display: none;
+    }
+
+    .circle11 {
+        left: 55%;
     }
 
       .lg {
