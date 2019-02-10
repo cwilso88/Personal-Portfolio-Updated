@@ -338,11 +338,6 @@
   }
 
 @media screen and (max-width: 485px) {
-
-    p {
-        font-size: 15px!important;
-    }
-
     #showcase {
         min-height: 70vh;
     }
@@ -364,10 +359,6 @@
         transform: rotate(0deg);
       }
 
-      #featuredWork {
-          min-height: 40vh;
-      }
-
       .featuredWork__container {
         margin-top: 90%;
     }
@@ -376,22 +367,12 @@
           display: none;
       }
 
-      .featuredWork__img h2 {
-        position: absolute;
-        left: 15px;
-        bottom: -1px;
-    }
-
     #about {
         min-height: 60vh;
     }
 
     #portfolio {
         margin-bottom: 50%;
-    }
-
-    #contact {
-        min-height: 40vh;
     }
 
     .contact__wrap {
@@ -414,13 +395,6 @@
         margin-right: 30px;
     }
 
-    .portfolio__projectTwo em, .portfolio__projectFour em, .portfolio__projectOne em, .portfolio__projectThree em {
-        left: 58px;
-        top: 10px;
-        width: 150px;
-        height: 30px;
-    }
-
     .circle3 {
         position: absolute;
         top: 10%;
@@ -438,6 +412,61 @@
         left: 12%;
     }
 
+}
 
+@media screen and (min-width: 361px) and (max-width: 485px) {
+    p {
+        font-size: 15px!important;
+    }
+
+    #featuredWork {
+        min-height: 40vh;
+    }
+
+    .featuredWork__img h2 {
+        position: absolute;
+        left: 15px;
+        bottom: -1px;
+    }
+
+    .portfolio__projectTwo em, .portfolio__projectFour em, .portfolio__projectOne em, .portfolio__projectThree em {
+        left: 58px;
+        top: 10px;
+        width: 150px;
+        height: 30px;
+    }
+
+    #contact {
+        min-height: 40vh;
+    }
 
 }
+
+@media screen and (max-width: 360px) {
+    p {
+        font-size: 17px!important;
+    }
+
+    #featuredWork {
+        min-height: 80vh;
+    }
+
+    .featuredWork__img h2 {
+        position: absolute;
+        left: 15px;
+        bottom: -351px;
+    }
+
+    .portfolio__projectTwo em, .portfolio__projectFour em, .portfolio__projectOne em, .portfolio__projectThree em {
+        left: 38px;
+        top: 10px;
+        width: 150px;
+        height: 30px;
+    }
+
+    #contact {
+        min-height: 70vh;
+        margin-top: 25%;
+    }
+}
+
