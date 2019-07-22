@@ -1,14 +1,76 @@
 @import "./cssreset.css";
 
-h1 {
-    font-size: 2em;
+#project-page {
+    position: absolute;
+    left: 15%;
+    top: 3%;
+    width: 800px;
+    height: 600px;
+}
+
+body {
+	overflow-x: hidden;
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Medula One', cursive;
+	line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #40E0D0;
+    font-size: 20px;
+}
+
+.project-links {
+    padding-top: 50px;
+    position: relative;
+    left: 30%;
 }
 
 p {
-    font-size: 1.2em;
+	font-family: 'Abel', sans-serif;
+	line-height: 2;
+	font-size: 20px;
 }
 
-image {
+.title {
+    font-size: 2.3em;
+    line-height: 1em;
+    font-weight: 700;
+    padding-bottom: 45px;
+    letter-spacing: 10px;
+}
+
+.container {
+	width: 900px;
+}
+
+
+.img-container {
     width: 600px;
-    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.img-container {
+    margin-bottom: 30px;
+    position: relative;
+    left: 15%;
 }
