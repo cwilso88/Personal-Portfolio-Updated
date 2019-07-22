@@ -161,36 +161,39 @@ img {
 /* MEDIA QUERIES max-width: 449PX*/
 @media screen and (max-width: 449px) {
     #project-page {
+        position: absolute;
+        left: 10%;
         top: 3%;
-        text-align: center;
+        text-align: left;
     }
 
     .container {
-        width: 400px;
+        width: 300px;
     }
 
     .img-container {
-        width: 350px;
-        left: 9%;
+        width: 250px;
+        left: 0;
     }
 
     .project-details {
-        width: 360px;
-        margin-left: 35px;
+        width: 300px;
+        margin-left: 0;
     }
 
     p {
         font-family: 'Abel', sans-serif;
         line-height: 2;
-        font-size: 1em;
+        font-size: .8em;
     }
 
     a {
-        font-size: 1.2em;
+        font-size: 1em;
+        display: inline-block;
     }
     
     .title {
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 1em;
         font-weight: 700;
         padding-bottom: 45px;
