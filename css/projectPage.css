@@ -4,7 +4,7 @@
 #project-page {
     position: absolute;
     left: 15%;
-    top: 3%;
+    top: 10px;
     width: 800px;
     height: 600px;
 }
@@ -39,7 +39,7 @@ a:hover {
 
 
 .project-links {
-    padding-top: 50px;
+    padding-top: 40px;
     position: relative;
     text-align: center;
 }
