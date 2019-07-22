@@ -1,5 +1,14 @@
 @import "./cssreset.css";
 
-#project-page h1 {
-    font-size: 34px;
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+image {
+    width: 600px;
+    height: 500px;
 }
