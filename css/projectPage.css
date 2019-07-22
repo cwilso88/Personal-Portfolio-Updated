@@ -95,6 +95,10 @@ img {
         line-height: 2;
         font-size: 1em;
     }
+
+    a {
+        font-size: 1.2em;
+    }
     
     .title {
         font-size: 1.2em;
