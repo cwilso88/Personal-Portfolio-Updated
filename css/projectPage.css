@@ -1,4 +1,5 @@
 @import "./cssreset.css";
+@import "./share.css";
 
 #project-page {
     position: absolute;
@@ -32,30 +33,9 @@ a {
 a:hover {
     text-decoration: none;
     color: #40E0D0;
-    font-size: 20px;
 }
 
-/* Clost Button */
-.close-this a {
-    font-family: 'Abel', sans-serif;
-    font-size: 15px;
-    line-height: 30px;
-    letter-spacing: 4px;
-    text-decoration: line-through;
-    color: rgba(255, 255, 255, 0.8);
-    background: #1F1F1F;
-    padding: 3px 15px;
-}
 
-.close-this a i {
-    margin: 0 10px;
-}
-
-.close-this a:hover {
-    text-decoration: none;
-}
-
-/* End of Close Button */
 
 
 .project-links {
