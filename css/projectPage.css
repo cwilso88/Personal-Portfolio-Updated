@@ -1,0 +1,5 @@
+@import "./cssreset.css";
+
+#project-page h1 {
+    font-size: 34px;
+}
