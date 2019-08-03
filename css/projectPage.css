@@ -71,6 +71,9 @@ p {
 img {
     width: 100%;
     height: auto;
+    -webkit-box-shadow: 2px 0px 13px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 13px 7px rgba(0,0,0,0.75);
+    box-shadow: 2px 0px 13px 7px rgba(0,0,0,0.75);
 }
 
 .img-container {
