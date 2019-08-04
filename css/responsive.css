@@ -157,7 +157,8 @@
   @media screen and (max-width: 739px) {
 
       .logo__img {
-          max-width: 8.5%;
+        max-width: 50px;
+        max-height: 50px;
       }
 
       .showcase__wrapText {
