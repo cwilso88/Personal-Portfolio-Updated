@@ -1,0 +1,54 @@
+.about__skills {
+    position: absolute;
+    right: 0px;
+    top: 90%;
+    background-color: #1F1F1F;
+    padding: 36px;
+    min-width: 30%;
+    box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
+    z-index: 1;
+}
+
+.about__skills h4 {
+    font-family: 'Abel', sans-serif;
+    font-size: 3em;
+	line-height: 140px;
+}
+
+.about__skills ul li {
+    font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 8px;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.about__skills ul li span {
+    border-bottom: 7px solid rgb(64,224,208);
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+.about__content {
+    width: 40%;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+/* Circles */
+
+.circle5 {
+    position: absolute;
+    top: 113px;
+    right: 350px;
+    z-index: -1;
+}
+
+.circle6 {
+    position: absolute;
+    bottom: 55px;
+    right: 350px;
+}

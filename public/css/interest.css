@@ -1,0 +1,50 @@
+section #interest {
+    min-height: 90vh;
+}
+
+.interest__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.interest__header {
+    justify-self: center;
+    align-self: center;
+}
+
+.interest__col {
+    margin-right: 30%;
+}
+
+.interest__list h1 {
+    padding-top: 10%;
+    letter-spacing: 2px;
+    font-size: 3em;
+}
+
+.interest__list a {
+    text-decoration: line-through;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.interest__list a:hover {
+    text-decoration: none;
+}
+
+.circle9 {
+    position: absolute;
+    left: 55%;
+}
+.circle10 {
+    position: absolute;
+    right: 130px;
+}
+
+.circle11 {
+    position: absolute;
+    left: 25%;
+}
+
+
+

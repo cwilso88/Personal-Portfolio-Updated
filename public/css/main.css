@@ -1,0 +1,62 @@
+@import "cssreset.css";
+@import url('https://fonts.googleapis.com/css?family=Abel|Medula+One');
+@import "header.css";
+@import "showcase.css";
+@import "about.css";
+@import "featuredWork.css";
+@import "portfolio.css";
+@import "interest.css";
+@import "contact.css";
+@import "footer.css";
+@import "responsive.css";
+
+/* turquoise	#40E0D0	rgb(64,224,208) */
+/* Yellow: #FACC43 */
+/* white: #FFFFFF; */
+
+body {
+	overflow-x: hidden;
+    color: #FFFFFF;
+    background-color: #1A1A1A;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Medula One', cursive;
+	line-height: 1;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+	line-height: 2;
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 900px;
+}
+
+section {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+/*Styling for Header Titles and Colon */
+.title {
+    font-size: 100px;
+    line-height: 1em;
+    font-weight: 700;
+    padding-bottom: 75px;
+    letter-spacing: 10px;
+}
+
+.colonText--color {
+    color: #40E0D0;
+}
